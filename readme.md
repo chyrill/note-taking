@@ -24,8 +24,8 @@ Before you begin, ensure you have the following installed:
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/chyrill/note-taking.git
+   cd note-taking
    ```
 2. install required dependecies
     ```bash
@@ -57,7 +57,7 @@ server is hosted on http://localhost:3000
     }
  ```
  - title and content are required fields
- 
+
    * GET `/api/notes/:id`
    * DELETE `/api/notes/:id`
    * GET `/api/notes` list all notes
